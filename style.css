@@ -1,0 +1,116 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.flex-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    border-radius: 8%;
+    padding: 5%;
+}
+.flex-child{
+    
+    display: flex;
+    align-items: center;
+    border: 0.2em solid;
+    border-color: #155EEF;
+    border-radius: 8px;
+}
+.one{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-color:  #155EEF;
+    margin-bottom: 2%;
+
+}
+.link{
+   display: flex;
+   margin: 2%;
+   gap: 5em;
+
+}
+.button1{
+    background-color: white;
+    border-color: #155EEF;
+    color: #155EEF;
+    border-radius:10%;
+    font-family: 'Manrope';
+font-style: normal;
+font-weight: 700;
+font-size: 100%;
+min-width: 100%;
+}
+.two{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-shrink: 1;
+    border-color:  #155EEF;
+    margin-bottom: 2%;
+    padding: 2%;
+}
+text2{
+    width: 70%;
+}
+
+p{
+    font-family: manrope;
+}
+.image{
+    width: 100%;
+}
+h2{
+    font-size: 2em;
+    color: #155EEF;
+}
+.button2{
+background-color: #155EEF;
+border: none;
+border-radius: 10%;
+color: white;
+padding: 1% 2%;
+font-size: 77%;
+margin-top: 2%;
+font-family: manrope;
+}
+.three{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 2%;
+    padding: 2%;
+    gap: 3em;
+}
+
+.pix{
+    border: 1% solid;
+    border-color: rgba(21, 94, 239, 1);
+    border-style: solid;
+    padding: 1% 0% 1% 1%;
+    width: 100%;
+}
+.text1{
+    width: 70%;
+}
+
+h1,h4{
+    font-family: halant;
+}
+.four{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 2%;
+    gap: ;
+}
+.social{
+    display: flex;
+    margin: 2%;
+    gap: 3em;
+}
+h3{
+    font-size: large;
+}
