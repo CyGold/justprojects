@@ -58,6 +58,9 @@ body{
   .link{
     display: none;
   }
+  .hamburger{
+    display: block;
+  }
   
 }
 .two {
