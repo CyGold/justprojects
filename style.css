@@ -107,7 +107,7 @@ h2 {
 .button2 {
   background-color: #155eef;
   border: none;
-  border-radius: 10%;
+  border-radius: 8px;
   color: white;
   padding: 1% 2%;
   font-size: 100%;
@@ -182,9 +182,16 @@ h3 {
   color: #041330;
 }
 @media screen and (max-width:777px){
-  .two, .three {
+  .two {
     display: flex;
     flex-direction: column;
+  }
+  .button2{
+    width: 100%;
+  }
+  .three{
+    display: flex;
+    flex-direction: column-reverse;
   }
   .text2, .text1 {
     width: 95%;
