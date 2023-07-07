@@ -60,8 +60,9 @@ body{
     display: none;
   }
 
-  link.visible{
+  .link.visible{
     display: flex;
+    flex-direction: column;
     float: none;
     text-align: center;
   }
@@ -295,3 +296,4 @@ ul {
   }
   
 }
+
