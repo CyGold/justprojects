@@ -22,6 +22,7 @@ body{
   border-color: #155eef;
   margin-bottom: 2%;
 }
+
 .link {
   display: flex;
   margin: 2%;
@@ -58,8 +59,16 @@ body{
   .link{
     display: none;
   }
+
+  link.visible{
+    display: flex;
+    float: none;
+    text-align: center;
+  }
+  
   .hamburger{
     display: block;
+    cursor: pointer;
   }
   
 }
